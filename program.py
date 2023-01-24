@@ -7,7 +7,6 @@ api_key = "574faf8ec0644d7066eaa44851f48a56"
 st.title("Weather Forecast")
 
 location = st.text_input("Enter a location (city, zip code, or coordinates):")
-
 if location:
     # Send API request
     url = f"https://api.openweathermap.org/data/2.5/weather?q={location}&appid={api_key}&units=metric"
