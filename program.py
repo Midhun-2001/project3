@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # OpenWeatherMap API Key
-api_key = "89acb1b857a3d8f2e795dea9bd509907"
+api_key = "574faf8ec0644d7066eaa44851f48a56"
 
 st.title("Weather Forecast")
 
